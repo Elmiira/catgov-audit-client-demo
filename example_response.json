@@ -1,0 +1,25 @@
+{
+  "jobId": "a3f8c2e1-7b4d-4e9a-b1c6-2d0f5e8a9c3b",
+  "status": "DONE",
+  "tableFqn": "unity-data-prd.attribution.secondary_conversion_session_v1",
+  "partitionDate": "2026-10-28",
+  "completedAt": "2026-10-28T09:32:07Z",
+  "summaryReportUrl": "gs://catalog-governance-reports-prd/a3f8c2e1-7b4d-4e9a-b1c6-2d0f5e8a9c3b_summary.md",
+  "glossaryReportUrl": "gs://catalog-governance-reports-prd/a3f8c2e1-7b4d-4e9a-b1c6-2d0f5e8a9c3b_glossary.md",
+  "dqReportUrl": "gs://catalog-governance-reports-prd/a3f8c2e1-7b4d-4e9a-b1c6-2d0f5e8a9c3b_dq.md",
+  "issueUrl": "https://github.com/Unity-Technologies/huron-hub/issues/42",
+  "results": {
+    "rowsSampled": 50000,
+    "score": "84% (21/25)",
+    "grade": "B",
+    "pass": 21,
+    "warn": 3,
+    "fail": 1,
+    "p0": 1,
+    "p1": 2,
+    "p2": 1,
+    "readiness": "Beta: NOT READY",
+    "schemaChecks": ["..."],
+    "rules": ["..."]
+  }
+}
